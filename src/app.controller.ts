@@ -23,7 +23,9 @@ export class AppController {
   }
 
   @Get('/test')
-  getTest(): Number  {
-    return Number;
+  getTest(): string {
+    return 'test';
   }
+
 }
+
