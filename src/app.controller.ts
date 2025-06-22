@@ -21,4 +21,9 @@ export class AppController {
     console.log('hello world');
     return none;
   }
+
+  @Get('/test')
+  getTest(): string {
+    return 'test';
+  }
 }
