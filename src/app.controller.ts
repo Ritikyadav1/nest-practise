@@ -16,7 +16,7 @@ export class AppController {
   }
 
   @Post()
-  postrouteparameter(@Param('id') id: string) {
-    return id;
+  postrouteparameter(@Param('none') none: string) {
+    return none;
   }
 }
