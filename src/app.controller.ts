@@ -17,6 +17,8 @@ export class AppController {
 
   @Post()
   postrouteparameter(@Param('none') none: string) {
+    console.log(none);
+    console.log('hello world');
     return none;
   }
 }
