@@ -27,5 +27,12 @@ export class AppController {
     return 'test';
   }
 
+
+  @Get('/test/:id')
+  getTestWithParam(@Param('id') id: string): string {
+    return `Test with ID: ${id}`;
+  }
+  
+
 }
 
